@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700;800;900&display=swap');
+
 @font-face {
     font-family: "FonteLogo";
     src: url("../_fonts/bubblegum-sans-regular.otf");
@@ -106,7 +107,7 @@ nav#menu ul {
     position: absolute;
     top: -20px;
     left: 300px;
-    
+
 }
 
 nav#menu li {
@@ -174,6 +175,7 @@ header#cabecalho-artigo h3 {
 .direita {
     text-align: right;
 }
+
 /* TABELA */
 table#tabelaspec {
     border: 1px solid #606060;
@@ -189,10 +191,10 @@ table#tabelaspec td {
 }
 
 table#tabelaspec td.ce {
-  color: #fff;
-  background-color: #606060;
-  vertical-align: top;
-  font-weight: bold;
+    color: #fff;
+    background-color: #606060;
+    vertical-align: top;
+    font-weight: bold;
 }
 
 table#tabelaspec td.cd {
@@ -224,7 +226,7 @@ aside#lateral {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
 }
 
-aside#lateral h1{
+aside#lateral h1 {
     font-family: 'FonteLogo', Helvetica, sans-serif;
     font-size: 20pt;
     color: #606060;
@@ -246,4 +248,3 @@ footer#rodape {
 footer#rodape p {
     text-align: center;
 }
-
