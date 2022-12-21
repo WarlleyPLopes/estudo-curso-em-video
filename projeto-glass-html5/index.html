@@ -9,6 +9,8 @@
     <link rel="stylesheet" type="text/css" href="_css/estilo.css" />
 </head>
 
+<script src="_javascript/funcoes.js"></script>
+
 <body>
     <div id="interface">
         <header id="cabecalho">
@@ -17,16 +19,24 @@
                 <h2>A revolução do Google está chegando</h2>
             </hgroup>
 
-            <img id="icone" src="_imagens/glass-oculos-preto-peq.png" alt="imagem oculos">
+            <img class="icone" src="_imagens/glass-oculos-preto-peq.png" alt="imagem oculos">
 
             <nav id="menu">
                 <h1>Menu Principal</h1>
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="specs.html">Especificações</a></li>
-                    <li><a href="fotos.html">Fotos</a></li>
-                    <li><a href="multimidia.html">Multimídia</a></li>
-                    <li><a href="fale-conosco.html">Fale conosco</a></li>
+                    <li onmouseover="mudaFoto('_imagens/home.png')"
+                        onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="/">Home</a></li>
+                    <li onmouseover="mudaFoto('_imagens/especificacoes.png')"
+                        onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a
+                            href="specs.html">Especificações</a></li>
+                    <li onmouseover="mudaFoto('_imagens/fotos.png')"
+                        onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="fotos.html">Fotos</a></li>
+                    <li onmouseover="mudaFoto('_imagens/multimidia.png')"
+                        onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a
+                            href="multimidia.html">Multimídia</a></li>
+                    <li onmouseover="mudaFoto('_imagens/contato.png')"
+                        onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="fale-conosco.html">Fale
+                            conosco</a></li>
                 </ul>
             </nav>
         </header>
@@ -35,12 +45,12 @@
 
             <article id="noticia-principal">
                 <header id="cabecalho-artigo">
-                <hgroup>
-                    <h3>Tecnologia > Inovações</h3>
-                    <h1>Saiba tudo sobre o Google Glass</h1>
-                    <h2>por Gustavo Guanabara</h2>
-                    <h3 class="direita">Atualizado em 23/Abril/2013</h3>
-                </hgroup>
+                    <hgroup>
+                        <h3>Tecnologia > Inovações</h3>
+                        <h1>Saiba tudo sobre o Google Glass</h1>
+                        <h2>por Gustavo Guanabara</h2>
+                        <h3 class="direita">Atualizado em 23/Abril/2013</h3>
+                    </hgroup>
                 </header>
                 <h2>O que é</h2>
                 <p> O Google Glass é um acessório em forma de óculos que possibilita a interação dos usuários com
@@ -60,7 +70,6 @@
                     </figcaption>
                 </figure>
 
-
                 <h2>Data de lançamento</h2>
 
                 <p>Não há uma data específica e oficial para o dispositivo ser lançado, ainda. Pode ser que ele esteja
@@ -75,24 +84,30 @@
                         <td class="ce">Tela</td>
                         <td class="cd">Resolução equivalente a tela de 25"</td>
                     </tr>
+
                     <tr>
                         <td rowspan="2" class="ce">Camera</td>
                         <td class="cd">5MP para fotos</td>
                     </tr>
+
                     <tr>
                         <td class="cd">720p para vídeos</td>
                     </tr>
+
                     <tr>
-                        <td rowspan="2" class="ce">Conectividad</td>
+                        <td rowspan="2" class="ce">Conectividade</td>
                         <td class="cd">Wi-Fi</td>
                     </tr>
+
                     <tr>
                         <td class="cd">Bluetooth</td>
                     </tr>
+
                     <tr>
                         <td class="ce">Memória Interna</td>
                         <td class="cd">12GB</td>
                     </tr>
+
                 </table>
 
                 <h2>Como funciona</h2>

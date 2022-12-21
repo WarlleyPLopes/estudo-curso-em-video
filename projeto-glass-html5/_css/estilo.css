@@ -35,10 +35,10 @@ a:hover {
     text-decoration: underline;
 }
 
-header#cabecalho img#icone {
+header#cabecalho img.icone {
     position: absolute;
-    left: 780px;
-    top: 70px;
+    left: 900px;
+    top: 65px;
 }
 
 header#cabecalho {
